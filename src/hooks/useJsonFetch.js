@@ -7,7 +7,6 @@ export default function useJsonFetch(url, opts) {
 
   useEffect(() => {
     const fetchData = async () => {
-
       setLoading(true);
       try {
         const response = await fetch(url);
